@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+front-end/.git
+front-end/dist
+front-end/node_modules
+front-end/package-lock.json

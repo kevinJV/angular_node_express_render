@@ -1,0 +1,15 @@
+{
+  "name": "hello_node_docker",
+  "version": "1.0.0",
+  "description": "Muestra didactica de node en docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "start": "cd front-end && npm install && npm run ng build -- --prod && cd .. && node index.js"
+  },
+  "author": "KevinJV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
